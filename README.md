@@ -1,4 +1,8 @@
-# 🦀 Rust Interactive Terminal Portfolio
+# 🦀 Rust Interactive Terminal Portfolio  
+
+## Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=github)](https://hitesh-bhatnagar.github.io/Terminal-Portfolio/)
 
 A high-performance, type-safe interactive terminal portfolio built entirely in **Rust** using **WebAssembly (WASM)** and the **Yew** framework.
 
