@@ -1,0 +1,11 @@
+[package]
+name = "cli_portfolio"
+version = "0.1.0"
+edition = "2024"
+authors = ["Hitesh Bhatnagar"]
+
+[dependencies]
+yew = { version = "0.21.0", features = ["csr"] }   # UI framework for Rust
+wasm-bindgen = "0.2" 
+# gives access to browser APIs (like window, keyboard events, and HTML elements) direectly in rust
+web-sys = { version = "0.3", features = ["HtmlInputElement", "Window", "KeyboardEvent", "InputEvent", "EventTarget"] }
